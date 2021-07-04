@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d4322e59_82d7f857",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-07-04T12:40:41Z",
+      "side": 1,
+      "message": "bad upload, couldn\u0027t even unzip previous apk:\n\nextracting: lib/arm64-v8a/libmonochrome_64.so   bad CRC 3f4cd30a  (should be 418a8bea)",
+      "revId": "37c50dabb7d25840f2812f244ab2a7ba5c6b75e1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
