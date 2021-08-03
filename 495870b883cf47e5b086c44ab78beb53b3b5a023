@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64b4cf04_93e01f14",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-03T15:59:27Z",
+      "side": 1,
+      "message": "Will build x86 and x64 later.",
+      "revId": "495870b883cf47e5b086c44ab78beb53b3b5a023",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
