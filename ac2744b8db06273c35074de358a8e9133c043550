@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b56899b_91c1c00b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-10T15:59:31Z",
+      "side": 1,
+      "message": "cherry-picked both commits to avoid making git repo even bigger.",
+      "revId": "ac2744b8db06273c35074de358a8e9133c043550",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
