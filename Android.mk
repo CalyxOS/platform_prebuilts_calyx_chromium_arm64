@@ -6,7 +6,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := TrichromeLibrary
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRODUCT_MODULE := true
-LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_CERTIFICATE := external/calyx/chromium/certs/chromium
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TARGET_ARCH := arm64
 LOCAL_SRC_FILES := TrichromeLibrary6432-signed.apk
@@ -16,7 +16,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := TrichromeWebView
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRODUCT_MODULE := true
-LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_CERTIFICATE := external/calyx/chromium/certs/chromium
 LOCAL_MULTILIB := both
 LOCAL_REQUIRED_MODULES := \
         libwebviewchromium_loader \
@@ -31,7 +31,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := TrichromeChrome
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRODUCT_MODULE := true
-LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_CERTIFICATE := external/calyx/chromium/certs/chromium
 LOCAL_MULTILIB := both
 LOCAL_REQUIRED_MODULES := \
         TrichromeLibrary
