@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1b05614_5419ab1e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-06-09T01:03:23Z",
+      "side": 1,
+      "message": "Gah, I typod the commit message, it\u0027s actually 102.0.5005.98\n\n98 not 78",
+      "revId": "b7a7e7c362c1b82ed787a1ebe4f50f980cca92f9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
