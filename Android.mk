@@ -9,7 +9,7 @@ LOCAL_PRODUCT_MODULE := true
 LOCAL_CERTIFICATE := external/calyx/chromium/certs/chromium
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TARGET_ARCH := arm64
-LOCAL_SRC_FILES := TrichromeLibrary6432-signed.apk
+LOCAL_SRC_FILES := TrichromeLibrary6432.apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -24,7 +24,7 @@ LOCAL_REQUIRED_MODULES := \
         TrichromeLibrary
 LOCAL_OVERRIDES_PACKAGES := webview
 LOCAL_MODULE_TARGET_ARCH := arm64
-LOCAL_SRC_FILES := TrichromeWebView6432-signed.apk
+LOCAL_SRC_FILES := TrichromeWebView6432.apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -37,7 +37,7 @@ LOCAL_REQUIRED_MODULES := \
         TrichromeLibrary
 LOCAL_OVERRIDES_PACKAGES := Browser2 QuickSearchBox
 LOCAL_MODULE_TARGET_ARCH := arm64
-LOCAL_SRC_FILES := universal-signed.apk
+LOCAL_SRC_FILES := universal.apk
 include $(BUILD_PREBUILT)
 
 endif
