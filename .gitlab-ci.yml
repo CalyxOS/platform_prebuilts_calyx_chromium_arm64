@@ -1,4 +1,0 @@
-update_fdroid_repo_common:
-  trigger: CalyxOS/calyx-fdroid-repo
-  only:
-  - android12L
