@@ -10,6 +10,7 @@ LOCAL_CERTIFICATE := external/calyx/chromium/certs/chromium
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TARGET_ARCH := arm64
 LOCAL_SRC_FILES := TrichromeLibrary6432.apk
+LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
