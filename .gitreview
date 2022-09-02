@@ -2,4 +2,4 @@
 host=review.calyxos.org
 port=29418
 project=CalyxOS/platform_prebuilts_calyx_chromium_arm64
-defaultbranch=android12L
+defaultbranch=android13
