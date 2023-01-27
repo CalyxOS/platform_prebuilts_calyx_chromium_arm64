@@ -16,6 +16,24 @@
       "message": "There was a process crash in the first iteration for some reason: \n```\n[185/292] android.webkit.cts.WebViewRenderProcessTest#testGetWebViewRenderProcess: FAILED (1.841s)        \n                                                                                                                                                                                                                     \nSTACKTRACE:                                                                                                                                                                                                          \nTest failed to run to completion. Reason: \u0027Instrumentation run failed due to \u0027Process crashed.\u0027\u0027. Check device logcat for details                                                                                    \nRUNNER ERROR: Instrumentation run failed due to \u0027Process crashed.\u0027\n```\n\nBut the next iterations were okay, apart from two consistent failures:\n```\nSummary (Test executed with 1 devices.)\n-------\nITERATION 1\narm64-v8a CtsHostsideWebViewTests: Passed: 4, Failed: 0, Ignored: 0, Assumption Failed: 0,    \narm64-v8a CtsWebkitTestCases: Passed: 183, Failed: 109, Ignored: 0, Assumption Failed: 0,   (Completed With ERRORS) \nITERATION 2\narm64-v8a CtsWebkitTestCases: Passed: 107, Failed: 2, Ignored: 0, Assumption Failed: 0,    \nITERATION 3\narm64-v8a CtsWebkitTestCases: Passed: 0, Failed: 2, Ignored: 0, Assumption Failed: 0,    \n\n2 tests failed\n--------------\nandroid.webkit.cts.PacProcessorTest#testSetNetwork\nandroid.webkit.cts.WebViewTest#testSetNetworkAvailable\n```",
       "revId": "7eea4bfe9ffd2e5180afba768d07025dd569c44c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3cd38ed2_39bb821e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-01-27T00:01:09Z",
+      "side": 1,
+      "message": "Would help if I were connected to a network!\n\nIt failed massively on the first iteration again, but on the next one, it was just one failure -- yes, a timeout:\n```\narm64-v8a CtsWebkitTestCases\n----------------------------\nandroid.webkit.cts (1 Test)\n[1/1] android.webkit.cts.WebViewTest#testSetNetworkAvailable: FAILED (21.962s)\n\nSTACKTRACE:\njunit.framework.AssertionFailedError: unexpected timeout\n        at junit.framework.Assert.fail(Assert.java:50)\n        at junit.framework.Assert.assertTrue(Assert.java:20)\n        at com.android.compatibility.common.util.PollingCheck.run(PollingCheck.java:77)\n        at android.webkit.cts.WebViewTest.testSetNetworkAvailable(WebViewTest.java:2187)\n        at java.lang.reflect.Method.invoke(Native Method)\n        at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:220)\n        at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:205)\n        at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)\n\n\nSummary (Test executed with 1 devices.)\n-------\nITERATION 1\narm64-v8a CtsHostsideWebViewTests: Passed: 4, Failed: 0, Ignored: 0, Assumption Failed: 0,    \narm64-v8a CtsWebkitTestCases: Passed: 184, Failed: 108, Ignored: 0, Assumption Failed: 0,   (Completed With ERRORS) \nITERATION 2\narm64-v8a CtsWebkitTestCases: Passed: 107, Failed: 1, Ignored: 0, Assumption Failed: 0,    \nITERATION 3\narm64-v8a CtsWebkitTestCases: Passed: 0, Failed: 1, Ignored: 0, Assumption Failed: 0,    \n\n1 test failed\n-------------\nandroid.webkit.cts.WebViewTest#testSetNetworkAvailable\n```",
+      "parentUuid": "0169e463_ab203f6c",
+      "revId": "7eea4bfe9ffd2e5180afba768d07025dd569c44c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
