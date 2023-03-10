@@ -16,6 +16,24 @@
       "message": "Also, need to make sure updates are ok\n\nTest:\n1. Make an android13 build without this commit, install to device (existing old install is fine)\n2. Open Chromium, open a website, add a bookmark, etc\n3. Build with this commit, install build without wiping\n4. Open Chromium again and make sure its\u0027 fine.",
       "revId": "654b5ea73a4e168bb9e2f2abc93848df1c67cf90",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "810effb8_8eb6aa94",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-03-10T20:41:14Z",
+      "side": 1,
+      "message": "Reverted to 110, cleared Chromium\u0027s data, and followed all these steps. Success, and chrome://policy is filled with policies afterward but not before, as expected.",
+      "parentUuid": "b8e990ec_c512d8e2",
+      "revId": "654b5ea73a4e168bb9e2f2abc93848df1c67cf90",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
