@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11bdd857_dd26e81f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-18T20:17:32Z",
+      "side": 1,
+      "message": "Just need to do a quick smoke test",
+      "revId": "95ff2c2378af8dc9cda2e3a4d4c59994dad91732",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
