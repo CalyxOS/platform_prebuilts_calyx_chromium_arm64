@@ -33,6 +33,23 @@
       "message": "`atest CtsHostsideWebViewTests CtsWebkitTestCases --retry-any-failure 3 ` passes after a local OS rebuild with these APKs",
       "revId": "55d8a8f1ee26909970a8db5ba8fc07d05dc7d97c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1a3cb22_d8dcf104",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-05-31T17:17:09Z",
+      "side": 1,
+      "message": "Works and atest passes",
+      "revId": "55d8a8f1ee26909970a8db5ba8fc07d05dc7d97c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
