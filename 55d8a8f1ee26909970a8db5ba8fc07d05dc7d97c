@@ -16,6 +16,23 @@
       "message": "https://gitlab.com/CalyxOS/calyxos/-/issues/1696#note_1412855677",
       "revId": "55d8a8f1ee26909970a8db5ba8fc07d05dc7d97c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9dc5fc9f_b2d3e19f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-31T16:56:24Z",
+      "side": 1,
+      "message": "`atest CtsHostsideWebViewTests CtsWebkitTestCases --retry-any-failure 3 ` passes after a local OS rebuild with these APKs",
+      "revId": "55d8a8f1ee26909970a8db5ba8fc07d05dc7d97c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
