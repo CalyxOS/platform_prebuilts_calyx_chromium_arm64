@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a3b0dfa_c1063473",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-13T00:01:26Z",
+      "side": 1,
+      "message": "PS7 of 18323: Port to M115 | https://review.calyxos.org/c/CalyxOS/platform_external_calyx_chromium/+/18323",
+      "revId": "b614d2b1aee9c70d9c4dadc4842f8dcd89d1afc9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
