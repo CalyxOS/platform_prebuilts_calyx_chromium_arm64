@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6cb2ff30_698afc5d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-08-01T05:01:33Z",
+      "side": 1,
+      "message": "Mind doing a quick test and then merging?\n\nIt was built from the chromiun/src tag `115.0.5790.138-calyx-2` which has the latest Welcome / no Play Services patch.",
+      "revId": "c9278d5b5dedec321c65659db103cc48a45d05f6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
