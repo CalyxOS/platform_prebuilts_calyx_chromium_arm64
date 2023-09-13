@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df08b51b_cea1f97e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-09-13T12:30:27Z",
+      "side": 1,
+      "message": "Version matches. Webshell version matches. atest passes. Ad block test passes.",
+      "revId": "f3963d1e62aa11053c388f3f2e58d57eb9787ecb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
