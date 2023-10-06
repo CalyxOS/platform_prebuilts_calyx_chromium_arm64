@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39dff9b9_b3642cfb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-06T21:43:34Z",
+      "side": 1,
+      "message": "Matches android13\n\nhttps://gitlab.com/CalyxOS/platform_prebuilts_calyx_chromium_arm64/-/compare/de6767678d567633cd18696d4ddbad224503fba3...6de1cb5d61baedb8161e27730b3237f850212276?from_project_id\u003d22440300\u0026straight\u003dtrue\n\n",
+      "revId": "6de1cb5d61baedb8161e27730b3237f850212276",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
