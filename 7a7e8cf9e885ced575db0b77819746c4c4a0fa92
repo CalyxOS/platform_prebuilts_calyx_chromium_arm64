@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3424074c_27c5b41f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-12T02:55:19Z",
+      "side": 1,
+      "message": "prod build. Unsure why the sizes differ from test builds this much",
+      "revId": "7a7e8cf9e885ced575db0b77819746c4c4a0fa92",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
