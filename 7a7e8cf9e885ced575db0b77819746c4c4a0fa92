@@ -34,6 +34,23 @@
       "parentUuid": "3424074c_27c5b41f",
       "revId": "7a7e8cf9e885ced575db0b77819746c4c4a0fa92",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e151eba_dfaf35f9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-12T16:53:02Z",
+      "side": 1,
+      "message": "Rollout is weird, at time of comment\n\nhttps://chromiumdash.appspot.com/releases?platform\u003dAndroid 117.0.5938.153 (100%)\n\n\n118.0.5993.65 has gone to 0.1%, 10% and 25% rollout before, could be a UI bug or an actual issue, hard to tell",
+      "revId": "7a7e8cf9e885ced575db0b77819746c4c4a0fa92",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
