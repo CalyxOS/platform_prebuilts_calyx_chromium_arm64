@@ -16,6 +16,23 @@
       "message": "atest passes.",
       "revId": "493334cf2d21398383f31fb3ed776fc6a4284dc5",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ccb1c402_6e15a115",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-12-05T03:15:23Z",
+      "side": 1,
+      "message": "https://chromiumdash.appspot.com/releases?platform\u003dAndroid\n\nRollout for this version is still at 0.1%, that\u0027s why I didn\u0027t hit submit yet.",
+      "revId": "493334cf2d21398383f31fb3ed776fc6a4284dc5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
