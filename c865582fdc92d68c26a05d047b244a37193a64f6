@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be631602_b606dc5a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-01-17T22:08:09Z",
+      "side": 1,
+      "message": "Privacy settings work, d3ward ad block test works as expected, lifetime permissions work, WebRTCCheck works, Moody weather app (WebView WebGL test) works.\n\n`atest --no-metrics CtsHostsideWebViewTests CtsWebkitTestCases --retry-any-failure 3` passes.",
+      "revId": "c865582fdc92d68c26a05d047b244a37193a64f6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
