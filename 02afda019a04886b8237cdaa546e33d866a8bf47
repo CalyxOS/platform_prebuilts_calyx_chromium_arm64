@@ -34,6 +34,24 @@
       "parentUuid": "d8471998_0cf82c18",
       "revId": "02afda019a04886b8237cdaa546e33d866a8bf47",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec2d4083_e66ac34b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-21T15:17:42Z",
+      "side": 1,
+      "message": "I meant to diff our 121 to 122 to see what the increase is going to, roughly.\n\nThe /data/app folders aren\u0027t the best indication here since we\u0027re looking at APK sizes, and then for `universal.apk / Chrome` it\u0027ll differ because they use splits properly and we just bunch it all into one universal apk - but that doesn\u0027t have a big increase either way.",
+      "parentUuid": "2e6ef994_d1e77fdc",
+      "revId": "02afda019a04886b8237cdaa546e33d866a8bf47",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
