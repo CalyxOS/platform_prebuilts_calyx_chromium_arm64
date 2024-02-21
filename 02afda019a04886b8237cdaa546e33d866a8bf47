@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8471998_0cf82c18",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-21T01:34:55Z",
+      "side": 1,
+      "message": "Woah that\u0027s a huge increase.\n\nSizes from this commit:\n\n\u003e 3.7M    SystemWebViewShell.apk\n\u003e 163M    TrichromeLibrary6432.apk\n\u003e 91M     TrichromeWebView6432.apk\n\u003e 39M     universal.apk\n\nAt the very least, should check to see what\u0027s new / causing the size increase.",
+      "revId": "02afda019a04886b8237cdaa546e33d866a8bf47",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
