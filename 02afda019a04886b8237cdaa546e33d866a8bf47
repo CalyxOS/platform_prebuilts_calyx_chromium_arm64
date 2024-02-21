@@ -52,6 +52,24 @@
       "parentUuid": "2e6ef994_d1e77fdc",
       "revId": "02afda019a04886b8237cdaa546e33d866a8bf47",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5df9982f_9a89ab59",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-02-21T15:21:31Z",
+      "side": 1,
+      "message": "Gerrit says TrichromeLibrary6432.apk is +35.9 MiB (+28%), TrichromeWebView6432.apk is +23.1 MiB (+34%), and universal.apk is +222.2 KiB (+1%), vs whatever we have in prebuilts right now.",
+      "parentUuid": "ec2d4083_e66ac34b",
+      "revId": "02afda019a04886b8237cdaa546e33d866a8bf47",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
