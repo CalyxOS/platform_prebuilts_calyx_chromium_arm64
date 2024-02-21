@@ -70,6 +70,24 @@
       "parentUuid": "ec2d4083_e66ac34b",
       "revId": "02afda019a04886b8237cdaa546e33d866a8bf47",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f494a6a3_df8270c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-21T15:29:34Z",
+      "side": 1,
+      "message": "The increase is due to libmonochrome, and our sizes are closer to Chrome APKs now, so we\u0027re good to ship for now at least.",
+      "parentUuid": "5df9982f_9a89ab59",
+      "revId": "02afda019a04886b8237cdaa546e33d866a8bf47",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
