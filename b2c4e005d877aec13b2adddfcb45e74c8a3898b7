@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f029eb5_beb592dd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-07T15:36:05Z",
+      "side": 1,
+      "message": "Tested with upgrade, setcookie.net still had cookie, WebGL site was still lacking previously-removed permission as expected.\n\nTests:\n- WebView: WebGL (Meteocool), WebRTC (WebRTCCheck)\n- Ad block (d3ward)\n- Permissions lifetime (browserleaks.com/geo)\n- Privacy and security settings page\n- About Chromium page, CalyxOS Chromium section\n- `atest --no-metrics CtsHostsideWebViewTests CtsWebkitTestCases --retry-any-failure 3` - note that this was run in a pre-QPR2 A14 checkout, but device had QPR2.\n\nAlong with additional test:\n- [W3schools form tag demo](https://www.w3schools.com/tags/tryit.asp?filename\u003dtryhtml_form_submit) with Viewport Size Protection on (default), tap into Last Name, whole page should resize rather than cover the keyboard.\n\nThen cleared storage for a quick smoke test.\n\nAll looking good.",
+      "revId": "b2c4e005d877aec13b2adddfcb45e74c8a3898b7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
