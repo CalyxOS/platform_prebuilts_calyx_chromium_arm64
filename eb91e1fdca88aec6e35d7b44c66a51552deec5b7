@@ -16,6 +16,24 @@
       "message": "Tests:\nWorking:\n- WebView: WebGL (Meteocool)\n- Ad block (d3ward)\n- Permissions lifetime (browserleaks.com/geo)\n- Privacy and security settings page\n- About Chromium page, CalyxOS Chromium section\n- `atest --no-metrics CtsHostsideWebViewTests CtsWebkitTestCases --retry-any-failure 3` (with previous PS at least)\n \nBroken:\n- WebView: WebRTC (WebRTCCheck)\n- Welcome screen on fresh install, not always reproducible.",
       "revId": "eb91e1fdca88aec6e35d7b44c66a51552deec5b7",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ed90a70_6ba57f3b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-20T19:13:23Z",
+      "side": 1,
+      "message": "`atest` is fine with this latest PS too.\n\nWebRTC as well, I didn\u0027t press \"Run WebRTC-check\" before :-(\n\nSO everything should be working apart from that Welcome screen crash I saw once.",
+      "parentUuid": "d1e804e8_951048a6",
+      "revId": "eb91e1fdca88aec6e35d7b44c66a51552deec5b7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
