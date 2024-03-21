@@ -16,6 +16,23 @@
       "message": "Prod apk",
       "revId": "c06a96700254755d3cccead0757cdc51688ce717",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "905a4446_09e655a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-21T20:41:38Z",
+      "side": 1,
+      "message": "Needs `LOCAL_OPTIONAL_USES_LIBRARIES :\u003d androidx.window.extensions` in Android.mk again",
+      "revId": "c06a96700254755d3cccead0757cdc51688ce717",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
