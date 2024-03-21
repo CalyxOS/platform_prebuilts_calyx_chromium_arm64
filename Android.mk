@@ -23,6 +23,7 @@ LOCAL_REQUIRED_MODULES := \
         libwebviewchromium_loader \
         libwebviewchromium_plat_support \
         TrichromeLibrary
+LOCAL_OPTIONAL_USES_LIBRARIES := androidx.window.extensions
 LOCAL_OVERRIDES_PACKAGES := webview
 LOCAL_MODULE_TARGET_ARCH := arm64
 LOCAL_SRC_FILES := TrichromeWebView6432.apk
