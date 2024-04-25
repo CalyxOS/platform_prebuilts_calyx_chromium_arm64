@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b23b1e2_a459da76",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-25T22:38:21Z",
+      "side": 1,
+      "message": "Tests:\n\n* WebView: WebGL (Meteocool), WebRTC (WebRTCCheck)\n* Ad block (d3ward)\n* Permissions lifetime (browserleaks.com/geo)\n* Privacy and security settings page\n* About Chromium page, CalyxOS Chromium section\n* setcookie.net, cookie with an expiration persisted from prev to this just fine.\n* atest --no-metrics CtsHostsideWebViewTests CtsWebkitTestCases --retry-any-failure 3",
+      "revId": "e45b14623d7d5270bde18a8f944253880d2fafba",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
