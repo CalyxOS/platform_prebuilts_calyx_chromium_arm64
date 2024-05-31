@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0479c8a2_f26883b7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-05-31T17:27:02Z",
+      "side": 1,
+      "message": "Smoke test is fine.",
+      "revId": "7b4edd4994e275eac9264476f3c492fa0600c808",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
